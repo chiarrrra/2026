@@ -18,8 +18,8 @@ Le lezioni sono di natura pratica: i concetti appresi verranno immediatamente ap
 - Aritmetica del colore
 - Simulazione
 - Terza dimensione, proiezioni
-- Ricorsività
-- Algoritmi emergenti, L-Systems
+- Ricorsività, L-Systems
+- Algoritmi emergenti
 - Funzioni pseudo-random e noise
 - Catene di Markov 
 - Filtri convoluzionali
