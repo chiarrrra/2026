@@ -18,7 +18,7 @@ function draw() {
 	// "orologio" che cresce nel tempo
 	const t = frameCount * 0.002
 
-	const raggio = 250
+	const raggio = 200
 
 	// sin() oscilla tra -1 e 1; con frequenze diverse (5 e 7)
 	// si ottiene una figura di Lissajous (curva intrecciata)
@@ -30,9 +30,11 @@ function draw() {
 	const g = map(sin(t * 11), -1, 1, 0, 255)
 	const b = map(sin(t * 12), -1, 1, 0, 255)
 
+	const diam = map(sin(t * 30), -1, 1, 50, 150)
+
 	noStroke()
 	fill(r, g, b)
-	circle(x, y, 300)
+	circle(x, y, diam)
 
 }
 
