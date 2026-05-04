@@ -16,6 +16,7 @@ function draw() {
 	let raggio = 100
 	let px = cos(angolo) * raggio
 	let py = sin(angolo) * raggio
+	let t  = tan(angolo)
 
 	line(0, 0, px, py)
 
@@ -28,6 +29,9 @@ function draw() {
 
 	stroke(0, 0, 255)
 	line(px, 0, px, py)
+
+	stroke(255, 128, 0)
+	line(px, py, px + py * t, py - px * t)
 
 
 	noStroke()
