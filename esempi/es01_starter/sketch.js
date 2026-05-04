@@ -13,7 +13,7 @@ function draw() {
 
 function keyPressed() {
 	if (key == 's') {
-		save("maschera_" + (new Date()).getTime() + ".png")
+		saves("maschera_" + (new Date()).getTime() + ".png")
 	} else if (key == 'n') {
 		background(200, 200, 200)
 	} else if (key == 'r') {
