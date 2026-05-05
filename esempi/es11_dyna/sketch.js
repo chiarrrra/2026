@@ -23,7 +23,7 @@ function draw() {
 	forza = forza.moltiplica(0.95)
 	posizione = posizione.somma(forza)
 
-	coda.push(new Vec2(posizione.x, posizione.y))
+	coda.push(posizione.copia())
 
 
 	while(coda.length > 100) {
