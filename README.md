@@ -80,5 +80,8 @@ Nota: verranno distribuite delle dispense digitali in classe.
 - [Three.js](https://threejs.org)
 - [thi.ng](https://thi.ng)
 
+#### Dispense (temporaneo)
+- [Swisstransfer](https://www.swisstransfer.com/d/ec03ac42-b328-4916-8b93-a49680f4feff)
+
 ## Gruppi di lavoro e progetti
 T.b.d
