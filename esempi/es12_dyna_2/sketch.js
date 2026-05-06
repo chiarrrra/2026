@@ -10,11 +10,15 @@ const forza = new Array(num)
 const coda = []
 
 function setup() {
-	createCanvas(800, 600)
+	createCanvas(windowWidth, windowHeight)
 	for (let i=0; i<num; i++) {
 		posizione[i] = new Vec2(width/2, height/2)
 		forza[i] = new Vec2(0, 0)
 	}
+}
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight)
 }
 
 function mousePressed() {
