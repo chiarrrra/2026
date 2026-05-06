@@ -21,7 +21,7 @@ function draw() {
 	background(230)
 
 	let M1 = new Mat3()
-	M1 = M1.trasla(100, 10)
+	M1 = M1.trasla(100, 7)
 	M1 = M1.ruota(mouseX * 0.01)
 	M1 = M1.scala(12, 12)
 
