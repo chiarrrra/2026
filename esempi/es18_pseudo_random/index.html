@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Esempio 18: GNPR</title>
+</head>
+<body>
+	<div></div>
+	<script>
+		let seed = 6
+
+		function random() {
+			const a = 5
+			const b = 1
+			const m = 16
+			const x = (a * seed + b) % m
+			seed = x
+			return x / m
+		}
+
+		const el = document.querySelector("div")
+
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+		el.innerHTML += random() + "<br>"
+
+	</script>
+</body>
+</html>
