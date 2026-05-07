@@ -1,3 +1,5 @@
+// Applicazione di una matrice 2x2 a una forma composta da punti.
+
 const forma = [
 	new Vec2(0.00, 0.00),
 	new Vec2(2.14, 0.00),
@@ -27,6 +29,7 @@ function draw() {
 	const formaT = []
 
 	for (let i=0; i<forma.length; i++) {
+		// Ogni vertice viene trasformato nello spazio della matrice M1.
 		formaT[i] = M1.moltiplicaVettore(forma[i])
 	}
 
@@ -45,8 +48,6 @@ function draw() {
 		vertex(forma[i].x, forma[i].y)
 	}
 	endShape(CLOSE)
-
-	// strokeWeight(3)
 	noStroke()
 	fill(255)
 	beginShape()
