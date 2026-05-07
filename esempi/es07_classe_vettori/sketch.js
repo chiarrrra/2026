@@ -1,3 +1,5 @@
+// Operazioni base sui vettori: differenza, inverso, perpendicolari e normalizzazione.
+
 function setup() {
 	createCanvas(500, 500)
 }
@@ -9,9 +11,7 @@ function draw() {
 	vettoreCentro.disegna("red")
 
 	const vettoreMouse = new Vec2(mouseX, mouseY)
-	//vettoreMouse.disegna("blue")
-
-	// vettoreMouse - vettoreCentro
+	// Vettore dal centro al mouse: base per tutte le trasformazioni successive.
 	const vettoreCM = vettoreMouse.sottrai(vettoreCentro)
 	vettoreCM.disegna("green", vettoreCentro)
 
@@ -24,10 +24,8 @@ function draw() {
 	const vettoreCMDestra = new Vec2(-vettoreCM.y, vettoreCM.x)
 	vettoreCMDestra.disegna("orange", vettoreCentro)
 
-
 	const vettore100 = vettoreCM.normalizza().moltiplica(100)
 	vettore100.disegna("brown", vettoreCentro)
 
 }
-
 
