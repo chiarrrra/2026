@@ -1,3 +1,5 @@
+// Poligono regolare controllato dal mouse: lati e raggio variano in diretta.
+
 function setup() {
 	createCanvas(800, 600)
 }
@@ -15,6 +17,7 @@ function draw() {
 
 	beginShape()
 	for (let i=0; i<lati; i++) {
+		// Angolo dei vertici distribuito uniformemente sul giro completo.
 		const angolo = TAU / lati * i
 		const px = cos(angolo) * raggio
 		const py = sin(angolo) * raggio
