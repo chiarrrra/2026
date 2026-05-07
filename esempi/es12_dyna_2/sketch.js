@@ -1,8 +1,4 @@
-/*
-Tentativo di implementazione di “DynaDraw” di Paul Haeberli
-https://www.graficaobscura.com/dyna/index.html
-
-*/
+// DynaDraw con piu' pennini che condividono la stessa traccia.
 
 const num = 2
 const posizione = new Array(num)
@@ -32,6 +28,7 @@ function draw() {
 	for (let i=0; i<num; i++) {
 		const delta = m.sottrai(posizione[i]).moltiplica(0.04)
 		forza[i] = forza[i].somma(delta  )
+		// Attrito leggermente diverso per ciascun pennino.
 		forza[i] = forza[i].moltiplica(0.94 + i * 0.01)
 		posizione[i] = posizione[i].somma(forza[i])
 
@@ -61,5 +58,4 @@ function draw() {
 	}
 
 }
-
 
