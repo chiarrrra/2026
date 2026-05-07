@@ -1,3 +1,5 @@
+// Trasformazioni lineari 2x2 applicate a un triangolo.
+
 function setup() {
 	createCanvas(500, 500)
 }
@@ -12,6 +14,7 @@ function draw() {
 
 	let M1 = new Mat2()
 	M1 = M1.scala(2, 2)
+	// La matrice finale combina scala e rotazione in un unico operatore.
 	M1 = M1.ruota(mouseX * 0.01)
 
 	const t1 = M1.moltiplicaVettore(v1)
