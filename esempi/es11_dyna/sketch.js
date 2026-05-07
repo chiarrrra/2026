@@ -1,8 +1,4 @@
-/*
-Tentativo di implementazione di “DynaDraw” di Paul Haeberli
-https://www.graficaobscura.com/dyna/index.html
-
-*/
+// Variante di DynaDraw: simulazione di inerzia con coda del tratto.
 
 let posizione
 let forza
@@ -20,11 +16,11 @@ function draw() {
 
 	const delta = m.sottrai(posizione).moltiplica(0.04)
 	forza = forza.somma(delta)
+	// Attrito numerico: limita la velocita' e stabilizza la traiettoria.
 	forza = forza.moltiplica(0.95)
 	posizione = posizione.somma(forza)
 
 	coda.push(posizione.copia())
-
 
 	while(coda.length > 100) {
 		coda.shift()
@@ -40,5 +36,4 @@ function draw() {
 	}
 	endShape()
 }
-
 
