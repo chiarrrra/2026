@@ -1,3 +1,5 @@
+// Confronto tra trasformazione diretta e inversa nello stesso spazio.
+
 const rettangolo = [
 	new Vec2( 10, 10),
 	new Vec2(100, 10),
@@ -18,6 +20,7 @@ function draw() {
 
 	const mouse = new Vec2(mouseX, mouseY)
 	const mouseT = M2.moltiplicaVettore(mouse)
+	// L'inversa riporta un punto dal sistema trasformato a quello originale.
 	const mouseTi = M2i.moltiplicaVettore(mouse)
 
 	stroke(0)
