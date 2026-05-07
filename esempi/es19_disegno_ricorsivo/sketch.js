@@ -1,3 +1,5 @@
+// Albero ricorsivo pseudo-casuale con seme controllabile.
+
 let seme = 0
 
 function setup() {
@@ -11,6 +13,7 @@ function mousePressed() {
 function draw() {
 	background(255, 220, 220)
 
+	// Stesso seme => stessa struttura dell'albero a ogni frame.
 	randomSeed(seme)
 	ramo(width/2, height * 0.95, 100, -PI/2, 11)
 
