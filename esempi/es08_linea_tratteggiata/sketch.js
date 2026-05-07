@@ -1,3 +1,5 @@
+// Interpolazione lineare tra due punti per costruire una linea tratteggiata.
+
 function setup() {
 	createCanvas(800, 600)
 }
@@ -10,6 +12,7 @@ function draw() {
 	const C = B.sottrai(A) // B - A
 
 	const distanzaPunti = 10
+	// Campionamento lungo il segmento in base alla lunghezza reale.
 	const numeroPunti = Math.floor(C.modulo() / distanzaPunti)
 
 	noStroke()
@@ -24,5 +27,4 @@ function draw() {
 		}
 	}
 }
-
 
