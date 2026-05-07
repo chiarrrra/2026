@@ -1,3 +1,5 @@
+// Interpolazione geometrica a tre punti (costruzione tipo De Casteljau).
+
 function setup() {
 	createCanvas(800, 600)
 }
@@ -13,7 +15,6 @@ function draw() {
 	stroke(0, 50)
 	line(A.x, A.y, C1.x, C1.y)
 	line(B.x, B.y, C1.x, C1.y)
-	// line(A_C1.x, A_C1.y, C1_B.x, C1_B.y)
 
 	noStroke()
 	fill(0)
@@ -27,13 +28,9 @@ function draw() {
 		const t = i / risoluzione
 		const A_C1 = C1.sottrai(A).moltiplica(t).somma(A)
 		const C1_B = B.sottrai(C1).moltiplica(t).somma(C1)
+		// Seconda interpolazione: produce i punti della curva.
 		const P = C1_B.sottrai(A_C1).moltiplica(t).somma(A_C1)
 		circle(P.x, P.y, 8)
 	}
-
-	// fill("royalblue")
-	// circle(A_C1.x, A_C1.y, 8)
-	// circle(C1_B.x, C1_B.y, 8)
 }
-
 
