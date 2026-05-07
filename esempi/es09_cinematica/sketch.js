@@ -1,3 +1,5 @@
+// Inseguimento smorzato: il punto segue il mouse con velocita' proporzionale alla distanza.
+
 let p = new Vec2(0, 0)
 
 function setup() {
@@ -9,9 +11,9 @@ function setup() {
 
 function draw() {
 	const m = new Vec2(mouseX, mouseY)
+	// Fattore di inseguimento: piu' e' piccolo, piu' il moto risulta smorzato.
 	const delta = m.sottrai(p).moltiplica(0.03)
 	p = p.somma(delta)
 	circle(p.x, p.y, (sin(frameCount * 0.04) * 0.5 + 0.5) * 100 + 20)
 }
-
 
