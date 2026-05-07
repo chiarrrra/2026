@@ -56,7 +56,7 @@ Nota: verranno distribuite delle dispense digitali in classe.
 
 #### Artisti e designer
 - [Memo Akten, Simple Harmonic Motion](https://vimeo.com/23539090)
-- [Toby Schachmann (noise, ricorsività, ecc.)](http://tobyschachman.com)
+- [Toby Schachmann (noise, ricorsività, ecc.)](https://tobyschachman.com)
 - [Inigo Quilez](https://iquilezles.org), autore di [ShaderToy](https://shadertoy.com)
 
 #### Scrivere e distribuire codice
@@ -84,4 +84,27 @@ Nota: verranno distribuite delle dispense digitali in classe.
 - [Swisstransfer](https://www.swisstransfer.com/d/ec03ac42-b328-4916-8b93-a49680f4feff)
 
 ## Gruppi di lavoro e progetti
-T.b.d
+- **Mattia Andronic** <br> Geometria Sona
+- **Chiara Betti** & **Alessio Andronic** <br> Random 
+- **Francesca Ferri** & **Elena Cariglia** <br> Noise
+- **Alice Ferri** & **Anita Crisafio** <br> 3D?
+- **Manuel Bove** & **Chiara Leonardi** <br> Curve di Lissajous  
+- **Giorgia Ritrovato** & **Martino Baraldi** <br> Sintesi del suono
+- **Giulia Callegari** & **Olga Buga** <br> WFC
+- **Ester Comuzzi** & **Irene Feligioni** <br> Trigonometria
+- **Gherardo Sabato** & **Simone Orbelli** <br> Reaction-diffusion
+- **Melanie Bonivento** & **Andrea Bedini** <br> L-Systems
+- **Sara Medkouri** & **Diego Scaglioni** <br> Frattali
+- **Federica Tassi** & **Beatrice Boero** <br> Geometria Sona
+- **Alice Marconi** & **Chiara Bacco** <br> A* / Mappe / Ottimizzazione (packing) / ...
+- **Giovanni Cenacchi** ?
+
+
+
+
+
+
+
+
+
+
