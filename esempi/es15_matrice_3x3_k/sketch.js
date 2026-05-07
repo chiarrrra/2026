@@ -1,3 +1,5 @@
+// Trasformazioni affine 3x3 (traslazione, rotazione, scala) su una forma.
+
 const forma = [
 	new Vec2(0.00, 0.00),
 	new Vec2(2.14, 0.00),
@@ -23,6 +25,7 @@ function draw() {
 	let M1 = new Mat3()
 	M1 = M1.trasla(100, 7)
 	M1 = M1.ruota(mouseX * 0.01)
+	// In 3x3 l'ordine delle trasformazioni cambia il risultato finale.
 	M1 = M1.scala(12, 12)
 
 	const formaT = []
@@ -46,8 +49,6 @@ function draw() {
 		vertex(forma[i].x, forma[i].y)
 	}
 	endShape(CLOSE)
-
-	// strokeWeight(3)
 	noStroke()
 	fill(255)
 	beginShape()
