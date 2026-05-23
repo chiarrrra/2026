@@ -95,9 +95,10 @@ Nota: verranno distribuite delle dispense digitali in classe.
 - **Gherardo Sabato** & **Simone Orbelli** <br> Reaction-diffusion
 - **Melanie Bonivento** & **Andrea Bedini** <br> L-Systems
 - **Sara Medkouri** & **Diego Scaglioni** <br> Frattali
-- **Federica Tassi** & **Beatrice Boero** <br> Geometria Sona
+- **Federica Tassi** <br> Geometria Sona
 - **Alice Marconi** & **Chiara Bacco** <br> A* / Mappe / Ottimizzazione (packing) / ...
-- **Giovanni Cenacchi** ?
+- **Giovanni Cenacchi** & **Beatrice Boero** <br> Curve di Bézier
+
 
 
 
