@@ -22,11 +22,13 @@ function draw() {
 	for (let y = 0; y < height; y++) {
 		for (let x = 0; x < height; x++) {
 			const col1 = pixel(immagineA, x, y)
-			const col2 = pixel(immagineB, x-100, y)
+			const col2a = pixel(immagineB, x, y)
+			const col2b = pixel(immagineB, x - mouseX, )
+			const col2c = pixel(immagineB, x, y - mouseY)
 
-			const r = col2.r * sfum + col1.r * (1 - sfum)
-			const g = col2.g * sfum + col1.g * (1 - sfum)
-			const b = col2.b * sfum + col1.b * (1 - sfum)
+			const r = col2a.r + col1.r
+			const g = col2b.g + col1.g
+			const b = col2c.b + col1.b
 
 			set(x, y, color(r, g, b))
 		}
