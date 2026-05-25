@@ -13,22 +13,24 @@ function draw() {
 	rotateZ(mouseX * 0.01)
 
 	const offsetY = frameCount * 0.01
-	const livelloMare = height/2 - mouseY
-	const t = frameCount * 0.01
+	const livelloMare = mouseY / height
+	const t = frameCount * 0.001
+	const num = 96
+	const scala = 10
 
-	const num = 64
 	for (let j=0; j<num; j++) {
 		beginShape()
 		for (let i=0; i<num; i++) {
-			const x = (i - num/2) * 8
-			const y = (j- num/2) * 8
-			let z = noise(i * 0.04, j * 0.04 + offsetY, t) * 200
-			if (z < livelloMare) {
+			let n = noise(i * 0.04 + 3, j * 0.04 + offsetY + 2, t + 10)
+			if (n < livelloMare) {
 				stroke(0, 200, 255)
-				z = livelloMare
+				n = livelloMare
 			} else {
 				stroke(0)
 			}
+			const x = (i - num/2) * scala
+			const y = (j- num/2) * scala
+			const z = n * 300
 			vertex(x, y, z)
 		}
 		endShape()
