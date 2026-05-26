@@ -84,27 +84,67 @@ Nota: verranno distribuite delle dispense digitali in classe.
 - [Swisstransfer](https://www.swisstransfer.com/d/ec03ac42-b328-4916-8b93-a49680f4feff)
 
 ## Gruppi di lavoro e progetti
-- **Mattia Andronic** <br> Geometria Sona
+
+
+- **Francesca Ferri** & **Elena Cariglia** <br>
+Noise <br>
+[URL](url)  
+
+- **Gherardo Sabato** & **Simone Orbelli** <br>
+Reaction-diffusion <br>
+[https://simoneorbelli-alt.github.io/Reaction-Diffusion-model](https://simoneorbelli-alt.github.io/Reaction-Diffusion-model)
+
+
+- **Ester Comuzzi** & **Irene Feligioni** <br>
+Trigonometria <br>
+[https://beatriceboero-stack.github.io/B-zier-curves](https://beatriceboero-stack.github.io/B-zier-curves)  
+
+
+- **Giorgia Ritrovato** & **Martino Baraldi**  
+Sintesi del suono  
+[URL](url)  
+
+
+- **Federica Tassi**  
+Matematica della musica   
+[URL](url)
+
+
+- **Giovanni Cenacchi** & **Beatrice Boero** <br> 
+Curve di Bézier
+[URL](url)
+
+
+
+- **Sara Medkouri** & **Diego Scaglioni** <br> 
+Frattali
+[https://diegoscorlio.github.io/i-frattali-in-natura](https://diegoscoglio.github.io/i-frattali-in-natura/)
+
+
+- **Alice Ferri** & **Anita Crisafio** <br>
+Colore
+[https://anitacrisafio-design.github.io/Schemi_di_colore/](https://anitacrisafio-design.github.io/Schemi_di_colore/)
+
+
+
+- **Melanie Bonivento** & **Andrea Bedini** <br> 
+L-Systems
+[https://hsk702.github.io/L-system/](https://hsk702.github.io/L-system/)
+
+
+
+- **Mattia Andronic** <br> 
+Geometria Sona
+
+
+
+
 - **Chiara Betti** & **Alessio Andronic** <br> Random 
-- **Francesca Ferri** & **Elena Cariglia** <br> Noise
-- **Alice Ferri** & **Anita Crisafio** <br> 3D?
+
 - **Manuel Bove** & **Chiara Leonardi** <br> Curve di Lissajous  
-- **Giorgia Ritrovato** & **Martino Baraldi** <br> Sintesi del suono
 - **Giulia Callegari** & **Olga Buga** <br> WFC
-- **Ester Comuzzi** & **Irene Feligioni** <br> Trigonometria
-- **Gherardo Sabato** & **Simone Orbelli** <br> Reaction-diffusion
-- **Melanie Bonivento** & **Andrea Bedini** <br> L-Systems
-- **Sara Medkouri** & **Diego Scaglioni** <br> Frattali
-- **Federica Tassi** <br> Geometria Sona
-- **Alice Marconi** & **Chiara Bacco** <br> A* / Mappe / Ottimizzazione (packing) / ...
-- **Giovanni Cenacchi** & **Beatrice Boero** <br> Curve di Bézier
 
-
-
-
-
-
-
+- **Alice Marconi** & **Chiara Bacco** <br> A* 
 
 
 
